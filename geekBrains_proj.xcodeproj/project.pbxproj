@@ -19,7 +19,7 @@
 		79762E24227063FC00CADF26 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79762E22227063FC00CADF26 /* NewsCell.swift */; };
 		79762E25227063FC00CADF26 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79762E23227063FC00CADF26 /* NewsCell.xib */; };
 		79762E272271D17500CADF26 /* LikeNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79762E262271D17500CADF26 /* LikeNews.swift */; };
-		797E9D8B2290D35000F7BF1D /* credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E9D8A2290D35000F7BF1D /* credentials.swift */; };
+		797E9D8B2290D35000F7BF1D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797E9D8A2290D35000F7BF1D /* Session.swift */; };
 		79B35DB22268857500982173 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B35DB02268857500982173 /* LikeButton.swift */; };
 		79B676AC22622EF100225133 /* avatarCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B676AB22622EF100225133 /* avatarCorner.swift */; };
 		79B676B22262AAD200225133 /* avatarShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B676B12262AAD200225133 /* avatarShadow.swift */; };
@@ -50,7 +50,7 @@
 		79762E22227063FC00CADF26 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		79762E23227063FC00CADF26 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		79762E262271D17500CADF26 /* LikeNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeNews.swift; sourceTree = "<group>"; };
-		797E9D8A2290D35000F7BF1D /* credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credentials.swift; sourceTree = "<group>"; };
+		797E9D8A2290D35000F7BF1D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		79B35DB02268857500982173 /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 		79B676AB22622EF100225133 /* avatarCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avatarCorner.swift; sourceTree = "<group>"; };
 		79B676B12262AAD200225133 /* avatarShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avatarShadow.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				79B676A52262249A00225133 /* UI */,
 				79545512225DE20A00CA3DBE /* Assets.xcassets */,
 				795E02E0225DF28400A8DE0F /* Controllers */,
-				797E9D8A2290D35000F7BF1D /* credentials.swift */,
+				797E9D8A2290D35000F7BF1D /* Session.swift */,
 			);
 			path = geekBrains_proj;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			files = (
 				795E02DF225DF27200A8DE0F /* ViewController.swift in Sources */,
 				79D82D1E225E8EF6004C2059 /* groups.swift in Sources */,
-				797E9D8B2290D35000F7BF1D /* credentials.swift in Sources */,
+				797E9D8B2290D35000F7BF1D /* Session.swift in Sources */,
 				795E02E2225DF2A700A8DE0F /* FriendsViewController.swift in Sources */,
 				79C3B31F228A3CDD0033A00C /* FullPicView.swift in Sources */,
 				791B98BC225DE5BB00818D0B /* FriendsCell.swift in Sources */,
