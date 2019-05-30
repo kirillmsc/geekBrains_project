@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5744059874B577BCB5886512 /* Pods_geekBrains_proj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22647F311FF6A042B34FA6BF /* Pods_geekBrains_proj.framework */; };
 		791B98BC225DE5BB00818D0B /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B98BB225DE5BB00818D0B /* FriendsCell.swift */; };
 		7954550C225DE20900CA3DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954550B225DE20900CA3DBE /* AppDelegate.swift */; };
 		79545511225DE20900CA3DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7954550F225DE20900CA3DBE /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22647F311FF6A042B34FA6BF /* Pods_geekBrains_proj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geekBrains_proj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE725A1DDEDDEA3930E973D /* Pods-geekBrains_proj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geekBrains_proj.debug.xcconfig"; path = "Target Support Files/Pods-geekBrains_proj/Pods-geekBrains_proj.debug.xcconfig"; sourceTree = "<group>"; };
 		7911502422615A0A00E8A9DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791B98BB225DE5BB00818D0B /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
 		79545508225DE20900CA3DBE /* geekBrains_proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geekBrains_proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +69,7 @@
 		79D82D22225F264B004C2059 /* RecomendTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendTableController.swift; sourceTree = "<group>"; };
 		79D82D24225F26A4004C2059 /* RecomendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendCell.swift; sourceTree = "<group>"; };
 		79F28A5A227EF4F4000D9F05 /* LoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		ACDC46D4250B4FEC2ABFCB52 /* Pods-geekBrains_proj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geekBrains_proj.release.xcconfig"; path = "Target Support Files/Pods-geekBrains_proj/Pods-geekBrains_proj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,17 +77,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5744059874B577BCB5886512 /* Pods_geekBrains_proj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EBD8463483D02A1D5727882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE725A1DDEDDEA3930E973D /* Pods-geekBrains_proj.debug.xcconfig */,
+				ACDC46D4250B4FEC2ABFCB52 /* Pods-geekBrains_proj.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		36A7474C8E0925F63E16B03C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22647F311FF6A042B34FA6BF /* Pods_geekBrains_proj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		795454FF225DE20900CA3DBE = {
 			isa = PBXGroup;
 			children = (
 				7954550A225DE20900CA3DBE /* geekBrains_proj */,
 				79545509225DE20900CA3DBE /* Products */,
+				2EBD8463483D02A1D5727882 /* Pods */,
+				36A7474C8E0925F63E16B03C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7954551A225DE20A00CA3DBE /* Build configuration list for PBXNativeTarget "geekBrains_proj" */;
 			buildPhases = (
+				8F082760C388766E50090100 /* [CP] Check Pods Manifest.lock */,
 				79545504225DE20900CA3DBE /* Sources */,
 				79545505225DE20900CA3DBE /* Frameworks */,
 				79545506225DE20900CA3DBE /* Resources */,
+				68A84C6262AF1938BA7E774D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +271,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68A84C6262AF1938BA7E774D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geekBrains_proj/Pods-geekBrains_proj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geekBrains_proj/Pods-geekBrains_proj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-geekBrains_proj/Pods-geekBrains_proj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F082760C388766E50090100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geekBrains_proj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79545504225DE20900CA3DBE /* Sources */ = {
@@ -416,6 +485,7 @@
 		};
 		7954551B225DE20A00CA3DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE725A1DDEDDEA3930E973D /* Pods-geekBrains_proj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +504,7 @@
 		};
 		7954551C225DE20A00CA3DBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDC46D4250B4FEC2ABFCB52 /* Pods-geekBrains_proj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
