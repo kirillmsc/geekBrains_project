@@ -544,9 +544,17 @@
                             <outlet property="delegate" destination="UY0-Xo-nzE" id="XIq-b2-8RM"/>
                         </connections>
                     </collectionView>
-                    <connections>
-                        <segue destination="Yr3-TB-DjC" kind="show" id="1aH-Z9-mwp"/>
-                    </connections>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="VAq-Pk-yex"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Title" id="gCs-7s-bw3">
+                        <barButtonItem key="rightBarButtonItem" title="Full" id="SGm-D5-KA9">
+                            <connections>
+                                <segue destination="Yr3-TB-DjC" kind="show" id="i0M-BJ-0G1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ndz-gv-5gR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -940,10 +948,10 @@
             </objects>
             <point key="canvasLocation" x="2687" y="441"/>
         </scene>
-        <!--Full Pic View-->
+        <!--Full Pic View Controller-->
         <scene sceneID="9cV-mM-ttv">
             <objects>
-                <viewController id="Yr3-TB-DjC" customClass="FullPicView" customModule="geekBrains_proj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yr3-TB-DjC" customClass="FullPicViewController" customModule="geekBrains_proj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OAu-YJ-GO9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
